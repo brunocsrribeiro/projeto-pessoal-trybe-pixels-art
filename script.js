@@ -24,8 +24,8 @@ function valueUser() {
     alert('Board inválido!');
   } else if (selectedBoardSize.value < 5) {
     selectedBoardSize.value = 5;
-  } else if (selectedBoardSize.value > 50) {
-    selectedBoardSize.value = 50;
+  } else if (selectedBoardSize.value > 28) {
+    selectedBoardSize.value = 28;
   }
 }
 
